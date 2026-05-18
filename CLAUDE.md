@@ -52,7 +52,7 @@ support/
 Apps can attach extra fields to every contact and review request via `setGetMetadata`. Call once at app init — the function is invoked on each submit and its return value is spread into the request body.
 
 ```js
-import { setGetMetadata } from './external/support'
+import { setGetMetadata } from '@neko-os/support'
 
 setGetMetadata(() => ({
   device_id: Storage.get('analytics:deviceId'),
