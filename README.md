@@ -14,7 +14,7 @@ Environment variables (or defaults):
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `EXPO_PUBLIC_SUPPORT_API` | `http://localhost:4000` | Support API base URL |
+| `EXPO_PUBLIC_SUPPORT_API` | `http://localhost:4000` | Support API base URL (leave to use default) |
 | `EXPO_PUBLIC_SUPPORT_SUBDOMAIN` | `kora` | App identifier sent as `subdomain` header |
 
 ## Setup
